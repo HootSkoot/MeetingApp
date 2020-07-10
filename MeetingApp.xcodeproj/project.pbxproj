@@ -12,6 +12,10 @@
 		A003157F24B5CDC800A4C429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003157D24B5CDC800A4C429 /* Main.storyboard */; };
 		A003158124B5CDCB00A4C429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A003158024B5CDCB00A4C429 /* Assets.xcassets */; };
 		A003158424B5CDCB00A4C429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003158224B5CDCB00A4C429 /* LaunchScreen.storyboard */; };
+		A01D5E2B24B6231700536C30 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D5E2724B6231700536C30 /* Meeting.swift */; };
+		A01D5E2D24B6231700536C30 /* MeetingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D5E2924B6231700536C30 /* MeetingDetailViewController.swift */; };
+		A01D5E2F24B6257C00536C30 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D5E2E24B6257C00536C30 /* RootTableViewController.swift */; };
+		A04D6DD524B662C400A9A269 /* NewMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D6DD424B662C300A9A269 /* NewMeetingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A003158024B5CDCB00A4C429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A003158324B5CDCB00A4C429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A003158524B5CDCB00A4C429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01D5E2724B6231700536C30 /* Meeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		A01D5E2924B6231700536C30 /* MeetingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingDetailViewController.swift; sourceTree = "<group>"; };
+		A01D5E2E24B6257C00536C30 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		A04D6DD424B662C300A9A269 /* NewMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewMeetingViewController.swift; path = ../../TableViewAppM1/NewMeetingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 				A003157924B5CDC800A4C429 /* AppDelegate.swift */,
 				A003157B24B5CDC800A4C429 /* ViewController.swift */,
 				A003157D24B5CDC800A4C429 /* Main.storyboard */,
+				A01D5E2724B6231700536C30 /* Meeting.swift */,
+				A01D5E2924B6231700536C30 /* MeetingDetailViewController.swift */,
+				A01D5E2E24B6257C00536C30 /* RootTableViewController.swift */,
 				A003158024B5CDCB00A4C429 /* Assets.xcassets */,
 				A003158224B5CDCB00A4C429 /* LaunchScreen.storyboard */,
+				A04D6DD424B662C300A9A269 /* NewMeetingViewController.swift */,
 				A003158524B5CDCB00A4C429 /* Info.plist */,
 			);
 			path = MeetingApp;
@@ -137,6 +149,10 @@
 			files = (
 				A003157C24B5CDC800A4C429 /* ViewController.swift in Sources */,
 				A003157A24B5CDC800A4C429 /* AppDelegate.swift in Sources */,
+				A01D5E2F24B6257C00536C30 /* RootTableViewController.swift in Sources */,
+				A04D6DD524B662C400A9A269 /* NewMeetingViewController.swift in Sources */,
+				A01D5E2D24B6231700536C30 /* MeetingDetailViewController.swift in Sources */,
+				A01D5E2B24B6231700536C30 /* Meeting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
