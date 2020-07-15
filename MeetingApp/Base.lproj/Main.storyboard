@@ -118,7 +118,7 @@
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8n-SG-vV5">
                                 <rect key="frame" x="290" y="373" width="69" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addPressed:" destination="zqa-2M-jUx" eventType="touchUpInside" id="Vp0-ST-VK7"/>
                                 </connections>
@@ -219,9 +219,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftI-lc-kGN">
-                                <rect key="frame" x="311" y="144" width="48" height="21"/>
+                                <rect key="frame" x="259" y="144" width="100" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="dateLabel"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="uPD-bZ-JBw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -244,7 +247,7 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Pi-C2-1au">
-                                <rect key="frame" x="16" y="143" width="48" height="21"/>
+                                <rect key="frame" x="16" y="143" width="146" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="locationLabel"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="gj6-uF-7Bt"/>
@@ -290,6 +293,7 @@
                             <constraint firstAttribute="trailing" secondItem="DXq-rd-4Vx" secondAttribute="trailing" id="kzB-zV-Yft"/>
                             <constraint firstItem="DXq-rd-4Vx" firstAttribute="leading" secondItem="0mh-Z4-Q4P" secondAttribute="leading" id="lFP-rZ-l6N"/>
                             <constraint firstItem="kxV-F4-t6J" firstAttribute="trailing" secondItem="ftI-lc-kGN" secondAttribute="trailing" id="oaY-Ap-Vla"/>
+                            <constraint firstItem="ftI-lc-kGN" firstAttribute="leading" secondItem="4Pi-C2-1au" secondAttribute="trailing" constant="97" id="v2F-Qm-8ca"/>
                             <constraint firstItem="0xw-Cw-766" firstAttribute="firstBaseline" secondItem="5s1-wz-DnV" secondAttribute="firstBaseline" id="yik-RE-P5P"/>
                             <constraint firstItem="5s1-wz-DnV" firstAttribute="top" secondItem="ftI-lc-kGN" secondAttribute="bottom" constant="7" id="yza-Nx-5RY"/>
                         </constraints>
